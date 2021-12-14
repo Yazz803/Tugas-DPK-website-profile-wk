@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+body::before {
+    content: '';
+    position: fixed;
+    background-image: linear-gradient(
+        rgba(73, 49, 207, 0.438),
+        rgba(205, 196, 255, 0.418)
+    ),
+    url(img/GedungWikrama.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.sidenav {
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+.sidenav img {
+    margin: 10% 18%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.sidenav h1 {
+    color: white;
+    font-size: 25px;
+    margin: -10% 0% 10% 13%;
+}
+.sidenav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5% 10%;
+    text-align: center;
+}
+.sidenav a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* main home */
+.main {
+    margin-left: 320px;
+    margin-right: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home {
+    height: 623px;
+}
+.main.home h1 {
+    color: white;
+    margin: 0;
+    text-align: center;
+    line-height: 623px;
+}
+.main.home span {
+    color: rgb(22, 22, 189);
+    text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px white, 0 0 4px white;
+}
+/* end main home */
+
+/* main sejarah */
+.sejarah {
+    background-color: rgba(32, 67, 143, 0.5);
+    color: white;
+    padding: 1% 2%;
+}
+.sejarah h2 {
+    margin-bottom: 0;
+    text-shadow: 0 0 1px black, 0 0 2px black, 0 0 3px black, 0 0 4px black;
+}
+.sejarah span {
+    font-weight: bold;
+}
+.sejarah ul {
+    padding-inline-start: 18px;
+}
+.sejarah ul li {
+    padding-bottom: 5px;
+}
+/* end main sejarah */
